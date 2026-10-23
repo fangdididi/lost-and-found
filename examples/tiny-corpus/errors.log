@@ -1,0 +1,6 @@
+2026-09-02 08:14:03 INFO  pos: till opened by staff 03
+2026-09-02 09:40:51 WARN  pos: card reader slow, retry 1
+2026-09-02 09:41:07 ERROR pos: E-217 card reader lost pairing; re-pair from Settings > Devices
+2026-09-02 12:02:44 INFO  pos: daily backup written
+2026-09-03 10:15:30 ERROR booking: E-305 calendar sync token expired; reconnect the shop calendar
+2026-09-03 17:59:59 INFO  pos: till closed

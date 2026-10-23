@@ -1,0 +1,12 @@
+{"id": "t01", "ask": "How many days until a refund lands on the customer's card?", "where": [{"path": "returns.md", "quote": "within 6 working days"}], "tags": ["synonym"], "kind": "find"}
+{"id": "t02", "ask": "Can a customer return a complete bike after three weeks?", "where": [{"path": "returns.md", "quote": "Complete bikes: 14 days"}], "tags": ["paraphrase"], "kind": "find"}
+{"id": "t03", "ask": "what does E-217 mean", "where": [{"path": "errors.log", "quote": "E-217 card reader lost pairing"}], "tags": ["exact-code", "log"], "kind": "find"}
+{"id": "t04", "ask": "Is the e-bike battery under warranty if it only charges to 60%?", "where": [{"path": "warranty.md", "quote": "more than 70% of its rated capacity"}], "tags": ["paraphrase"], "kind": "find"}
+{"id": "t05", "ask": "where is the frame serial number", "where": [{"path": "warranty.md", "quote": "stamped under the bottom bracket"}], "tags": ["direct"], "kind": "find"}
+{"id": "t06", "ask": "torque setting for carbon parts", "where": [{"path": "notes/workshop.md", "quote": "5 Nm"}], "tags": ["direct"], "kind": "find"}
+{"id": "t07", "ask": "Do customers get a courtesy bike while theirs is repaired?", "where": [{"path": "notes/workshop.md", "quote": "free loan bike"}], "tags": ["synonym"], "kind": "find"}
+{"id": "t08", "ask": "Are refunds for faulty items handled under the returns policy?", "where": [{"path": "returns.md", "quote": "see warranty.md instead"}, {"path": "warranty.md", "quote": "To start a claim"}], "tags": ["two-places"], "kind": "find"}
+{"id": "t09", "ask": "周一开门吗", "where": [{"path": "notes/门店须知.md", "quote": "周一闭店盘点"}], "tags": ["chinese"], "kind": "find"}
+{"id": "t10", "ask": "电池可以寄快递吗", "where": [{"path": "notes/门店须知.md", "quote": "不能寄快递"}], "tags": ["chinese"], "kind": "find"}
+{"id": "t11", "ask": "calendar sync token expired error", "where": [{"path": "errors.log", "quote": "E-305"}], "tags": ["log"], "kind": "find"}
+{"id": "t12", "ask": "Do you sell gift cards?", "where": [], "tags": ["absent"], "kind": "none"}

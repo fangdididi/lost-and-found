@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+.lost-and-found/
+runs/
